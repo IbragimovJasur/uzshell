@@ -8,6 +8,9 @@ This is a draft version of uzbek shell. It hasn't been finished yet and I'm stil
 
 ```aks``` (in uzbek 'aks-sado') is a equivalent of ```echo``` command. Usage example: ```aks 'Hello World'```
 
+
+```chiq``` (in uzbek 'chiqmoq') is a equivalent of ```exit``` command. Usage example: ```chiq```
+
 In *uzshell*, on top of the two above mentioned commands, you can run ```ls```, ```cp```, ```mv``` commands which are provided by Unix shell.
 
 ## Compile & Run

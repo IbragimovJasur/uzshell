@@ -11,7 +11,7 @@
 char *builtin_commands[] = {
     "kir",
     "aks",
-    "chiqish"
+    "chiq"
 };
 
 int num_of_builtin_commands()

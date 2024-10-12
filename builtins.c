@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 int uzshell_cd(char **args)
 {
-    if (args[0] == NULL)
+    if (args[1] == NULL)
     {
-        fprintf(stderr, "'kir' buyruqga argument topilmadi");
+        fprintf(stderr, "'kir' buyruqga argument topilmadi\n");
     }
     else
     {
@@ -19,9 +20,9 @@ int uzshell_cd(char **args)
 
 int uzshell_echo(char **args)
 {
-    if (args[0] == NULL)
+    if (args[1] == NULL)
     {
-        fprintf(stderr, "'aks' buyruqga argument topilmadi");
+        fprintf(stderr, "'aks' buyruqga argument topilmadi\n");
     }
     else
     {
@@ -38,5 +39,5 @@ int uzshell_echo(char **args)
 
 int uzshell_exit(char *args)
 {
-    return 1;
+    exit(0);
 }
